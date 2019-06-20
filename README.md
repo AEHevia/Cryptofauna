@@ -9,4 +9,5 @@ Code for the Cryptofauna twitter bot! (https://twitter.com/Cryptofauna)
 
 ## TODO:
 [Add more sentence variety]
+
 [Fix the issue where grammars are not loading from file]
