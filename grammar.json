@@ -1,0 +1,11 @@
+{
+    "<start>": ["Located in the <Place> the <C> <DS>", "Found along the coasts of <Co> the <C> <DS>"],
+    "<Place>": ["<PM> Canyons", "<PM> Valley", "<PM> Jungles"],
+    "<Co>": ["<PM> Sea"],
+    "<C>": ["<NM> <N>", "legendary <NM> <N>", "elusive <N> <N>"],
+    "<NM>": ["Majestic", "Plated", "Sticky", "<N>", "Putrid", "Blue", "Purple", "Ragged", "Armored", "Polite", "Onion", "Warrior"],
+    "<N>": ["Monkeys", "Zebra", "Shark", "Fish", "Ray", "Parrot", "Hawk"],
+    "<DS>": ["hunts <NM> <N>", "builds shelters made of <M>", "can use <M> tools to construct <Obj>"],
+    "<M>": ["silver", "bronze", "wood", "rock", "plant matter", "sticks", "granite", "grass", "coconut fibers"],
+    "<Obj>": ["religious sculptures", "totems", "sacrifical burial grounds", "intricate mouments", "homes", "campgrounds", "tents"]
+}
