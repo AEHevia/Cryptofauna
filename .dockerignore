@@ -1,0 +1,6 @@
+data/animals/
+.gitignore
+README.md
+package-lock.json
+node_modules/
+config_empty.js

@@ -1,5 +1,5 @@
 // Create the character level Markov chain
-function createStateSpace(assumption, data_array)
+function createMarkovChain(assumption, data_array)
 {
     let state_space = {};
     let beginnings = [];
@@ -9,7 +9,7 @@ function createStateSpace(assumption, data_array)
         let subject = data_array[k];
 
         for (let i = 0; i < subject.length - assumption; i++) {
-            let gram = subject.substring(i, i + assumption);
+            let gram = subject.substring(i, i + assumption).toLowerCase();
 
             if (i == 0) {
                 beginnings.push(gram);
@@ -44,6 +44,7 @@ function generateText(state_space, beginnings, assumption, generation_len)
             // If our possibilities is null, stop generating, we have reached the end
             if (!possibilities)
             {
+                console.log("no options for " + seed)
                 break;
             }
 
@@ -53,11 +54,10 @@ function generateText(state_space, beginnings, assumption, generation_len)
         }
 
         // Print what we generated
-        return result;
-
+        return result.charAt(0).toUpperCase() + result.slice(1);
 }
 
 module.exports = {
-    createStateSpace,
+    createMarkovChain,
     generateText
 }

@@ -10,7 +10,7 @@
     "<NM>": 
         ["Majestic", "Plated", "Sticky", "<N>", "Putrid", "Blue", "Purple", "Ragged", "Armored", "Polite", "Onion", "Warrior"],
     "<N>": 
-        ["Monkeys", "Zebra", "Shark", "Fish", "Ray", "Parrot", "Hawk"],
+        ["Monkeys", "Zebras", "Sharks", "Fishs", "Rays", "Parrots", "Hawks"],
     "<DS>": 
         ["hunts <NM> <N>", "builds shelters made of <M>", "can use <M> tools to construct <Obj>"],
     "<M>": 
@@ -20,5 +20,5 @@
     "<PM>":
         ["Corrupted", "Howling", "Marble", "Orismer"],
     "<Gen>":
-        ["GEN-ANIMAL"]
+        ["\"GEN-ANIMAL\""]
 }
