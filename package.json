@@ -1,0 +1,24 @@
+{
+  "name": "Cryptofauna",
+  "version": "1.0.0",
+  "description": "Code for the Cryptofauna twitter bot! (https://twitter.com/Cryptofauna)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hevia/Cryptofauna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hevia/Cryptofauna/issues"
+  },
+  "homepage": "https://github.com/Hevia/Cryptofauna#readme",
+  "dependencies": {
+    "rita": "^1.3.94",
+    "twit": "^2.2.11"
+  }
+}
