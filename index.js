@@ -1,4 +1,4 @@
-let {genCreature} = require('./grammar')
+let {genCreature} = require('./src/grammar')
 let Twit = require('twit')
 let config = require('./config')
 
