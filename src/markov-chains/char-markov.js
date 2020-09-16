@@ -54,7 +54,7 @@ function generateText(state_space, beginnings, assumption, generation_len)
         }
 
         // Print what we generated
-        return result.charAt(0).toUpperCase() + result.slice(1);
+        return (result.charAt(0).toUpperCase() + result.slice(1)).split(" ").join("");
 }
 
 module.exports = {
