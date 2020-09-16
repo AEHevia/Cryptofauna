@@ -1,4 +1,5 @@
 const {generateText} = require('./markov-chains/char-markov.js');
+const {generateArtifact, generateAdj, generatePlant} = require("./helpers/generation_helpers");
 
 const genCreature = (state_space, beginnings, generator) => {
     const animal_name = generateText(state_space, beginnings, 1, 7)
