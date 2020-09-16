@@ -6,9 +6,9 @@ const genCreature = (state_space, beginnings, generator) => {
     const result = generator.expand();
     return result
     .replace("GEN-ANIMAL", animal_name)
-    .replace("GEN-ARTIFACT", "")
-    .replace("GEN-PLANT", "")
-    .replace("GEN-ADJ", "")
+    .replace("GEN-ARTIFACT", generateArtifact())
+    .replace("GEN-PLANT", generatePlant())
+    .replace("GEN-ADJ", generateAdj())
 }
 
 module.exports = {
