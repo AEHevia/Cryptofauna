@@ -12,4 +12,7 @@ Lots of additional tasks can be done to improve the bot. The highest priority it
 
 * Update sentence variety
 * Migrate code to Typescript
-* Set up a Github actions pipe
+* Set up a Github actions pipeline
+* Figure out a method to imbue actual coherence and intelligence to the generation, some sort of ontology
+* Connect to a DB so creations are saved and can be rereferenced
+* Investigate other generative methods

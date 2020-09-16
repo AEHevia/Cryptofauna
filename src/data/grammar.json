@@ -1,6 +1,8 @@
 {
     "<start>": 
-        ["Located in the <Place> the <Gen> <DS>", "Found along the coasts of <Co> the <Gen> <DS>"],
+        ["Located in the <Place> the <Gen> <DS>", "Found along the coasts of <Co> the <Gen> <DS>",
+        "After events of <Hazard> the <Gen> can be seen <Doing>", 
+        "Written within the <NM> <Gen-Artifact> the <Gen> is described as <Doing>"],
     "<Place>": 
         ["<PM> Canyons", "<PM> Valley", "<PM> Jungles"],
     "<Co>": 
@@ -8,11 +10,13 @@
     "<C>": 
         ["<NM> <N>", "legendary <NM> <N>", "elusive <N> <N>"],
     "<NM>": 
-        ["Majestic", "Plated", "Sticky", "<N>", "Putrid", "Blue", "Purple", "Ragged", "Armored", "Polite", "Onion", "Warrior"],
+        ["GEN-ADJ"],
     "<N>": 
         ["Monkeys", "Zebras", "Sharks", "Fishs", "Rays", "Parrots", "Hawks"],
     "<DS>": 
-        ["hunts <NM> <N>", "builds shelters made of <M>", "can use <M> tools to construct <Obj>"],
+        ["hunts <NM> <N>", "builds shelters made of <M>", 
+        "can use <M> tools to construct <Obj>",
+        "forages for <Gen-Plant>"],
     "<M>": 
         ["silver", "bronze", "wood", "rock", "plant matter", "sticks", "granite", "grass", "coconut fibers"],
     "<Obj>": 
@@ -20,5 +24,13 @@
     "<PM>":
         ["Corrupted", "Howling", "Marble", "Orismer"],
     "<Gen>":
-        ["\"GEN-ANIMAL\""]
+        ["\"GEN-ANIMAL\""],
+    "<Hazard>": 
+        [""],
+    "<Doing>":
+        [""],
+    "<Gen-Artifact>":
+        ["GEN-ARTIFACT"],
+    "<Gen-Plant>":
+        ["GEN-PLANT"]
 }
